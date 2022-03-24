@@ -1,6 +1,6 @@
 # Improving the Fairness of Chest X-ray Classifiers
 
-Benchmarking the performance of group-fair and minimax-fair methods on two chest x-ray datasets, with an auxiliary investigation into label bias in MIMIC-CXR. For more details please see our CHIL 2022 paper.
+Benchmarking the performance of group-fair and minimax-fair methods on two chest x-ray datasets, with an auxiliary investigation into label bias in MIMIC-CXR. For more details please see our [CHIL 2022 paper](https://arxiv.org/abs/2203.12609).
 
 ## Contents
   - [Setting Up](#setting-up)
@@ -86,3 +86,11 @@ We link the x-rays in MIMIC-CXR with hospital stay information in MIMIC-IV by qu
 
 ## Citation
 If you use this code in your research, please cite the following publication:
+```
+@article{zhang2022improving,
+  title={Improving the Fairness of Chest X-ray Classifiers},
+  author = {Zhang, Haoran and Dullerud, Natalie and Roth, Karsten and Oakden-Rayner, Lauren and Pfohl, Stephen Robert and Ghassemi, Marzyeh},
+  journal={arXiv preprint arXiv:2203.12609},
+  year={2022}
+}
+```
